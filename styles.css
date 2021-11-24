@@ -1,0 +1,175 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.topleft{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.topright{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+.first{
+    display: flex;
+    background-color: #1f2937;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.next{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+}
+
+.hero{
+    display: flex;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-left: 35px;
+}
+
+.sidekick{
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+.pix{
+    display: flex;
+    padding: 55px;
+    justify-self: flex-end;
+}
+
+.other{
+    display: flex;
+    
+    justify-self: flex-end;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    
+}
+.info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tiles{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.box-one{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+}
+
+.box-two{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+}
+
+.box-three{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+}
+.box-four{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+}
+
+.third{
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #526785;
+    margin: 15px;
+}
+
+.author{
+    color: #1f2937;
+    font-size: 20px;
+    text-align: right;
+    margin: 15px;
+}
+
+.pop-up{
+    background-color: #3882f6;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border: 1px;
+    padding: 15px;
+    margin: 35px;
+
+}
+
+.button2{
+    background-color: #3882f6;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
