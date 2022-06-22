@@ -74,7 +74,7 @@ img{
     margin-left: 35px;
 }
 
-.pix{
+.pix img{
     display: flex;
     padding: 55px;
     justify-self: flex-end;
